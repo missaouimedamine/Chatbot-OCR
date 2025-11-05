@@ -15,7 +15,7 @@ This project is an OCR-powered chatbot that allows users to upload an image, aut
 ## 🔗 Access Links
 You Can Access the:
 - 🖥️ Backend hosted on HuggingFace from this [link](https://missaoui-ocr-fastapi.hf.space/docs)
-- 🖼️ Frontend hosted on Netfify Cloud on this [link](https://chatbotocr.netlify.app/)
+- 🖼️ Frontend hosted on Netfify Cloud on this [link](https://ocr-chatbot.netlify.app/)
 
 ## 🚀 Setup & Run Locally
 
