@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OCR Chatbot</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@32,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1 class="heading">OCR Chatbot</h1>
+            <h4 class="sub-heading">Upload an image to extract text and generate PDF</h4>
+        </header>
+
+        <div class="chats-container"></div>
+
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="upload an Image" class="prompt-input" />
+                    <div class="prompt-actions">
+                        <div class="file-upload-wrapper">
+                            <img src="#" class="file-preview" />
+                            <input id="file-input" type="file" accept="image/*" hidden />
+                            <button id="cancel-file-btn" type="button" class="material-symbols-rounded">close</button>
+                            <button id="add-file-btn" type="button" class="material-symbols-rounded">attach_file</button>
+                        </div>
+                        <button id="send-prompt-btn" class="material-symbols-rounded" disabled>arrow_upward</button>
+                    </div>
+                </form>
+            </div>
+            <p class="disclaimer-text">OCR results may vary based on image quality.</p>
+        </div>
+    </div>
+
+</body>
+</html>
